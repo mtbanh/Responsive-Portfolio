@@ -15,6 +15,9 @@
 
   <header>
     <style>
+      * {
+        font-family: sans-serif;
+      }
       h4 {
         font-size: 25px;
         width: 136px;
@@ -63,7 +66,13 @@
         background-color: teal;
         border-color: teal;
       }
+
+      @media screen and (max-width: 768px) {}
+      @media screen and (max-width: 640px) {}
+
+
     </style>
+
     <div class="container">
       <div class="row">
         <div class="col-6">
@@ -129,7 +138,7 @@
 </body>
 
 <footer>
-  <div class="fixed-bottom">
+  <div class="sticky-bottom">
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Copyright</h5>
