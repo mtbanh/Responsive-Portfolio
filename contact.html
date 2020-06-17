@@ -46,7 +46,7 @@
 
       nav {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
       }
 
@@ -67,33 +67,32 @@
         border-color: teal;
       }
 
-      @media screen and (max-width: 768px) {}
-      @media screen and (max-width: 640px) {}
 
 
     </style>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-6">
-          <h4>Mai Banh</h4>
-        </div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-4" >
+      <h4>Mai Banh</h4>
+    </div>
 
-        <div class="col-6">
-          <ul class="nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link active" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-          </nav>
-        </div>
-  </header>
+    <div class="col md-8">
+      <nav class="navbar navbar-light bg-light">
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      </nav>
+    </div>
+</header>
 
   <section>
     <container>

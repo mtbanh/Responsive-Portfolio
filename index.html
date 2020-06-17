@@ -19,7 +19,6 @@
       * {
         font-family: sans-serif;
       }
-
       h4 {
         font-size: 25px;
         width: 136px;
@@ -48,7 +47,7 @@
 
       nav {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
       }
 
@@ -69,66 +68,39 @@
         border-color: teal;
       }
 
-      @media screen and (max-width: 768px) {}
 
-      @media screen and (max-width: 640px) {}
+
     </style>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-6">
-          <h4>Mai Banh</h4>
-        </div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-4" >
+      <h4>Mai Banh</h4>
+    </div>
 
-        <div class="col-6">
-          <ul class="nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link active" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-          </nav>
-        </div>
-  </header>
+    <div class="col md-8">
+      <nav class="navbar navbar-light bg-light">
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      </nav>
+    </div>
+</header>
   <section>
-
-    <!-- <div class="card w-75" style="max-width: 540px;">
-      <h5 class="card-header">About me</h5>
-      <div class="row">
-        <div class="col-md-4">
-          <img src="./Images/profile.jpg" class="card-img" alt="profile-pic">
-        
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <p class="card-text">
-              My name is Mai Banh and I am living in the Bay Area. I am a first-generation Vietnames-American. I was a
-              dental assistant and had the full intention of going to dental school and try to become a dentist;
-              however, after looking closer at the commitment, I decided that it wasn't for me. <br /> <br />
-              <p>During my time in the dentistry field, I did get exposed to an amazing application that allowed oral
-                surgeon to plan their surgery using 3D rendering. I realized at that point that I wanted to be a part of
-                a team that bridge technology and health care. <br /> I am not attending a full stack web developement
-                bootcamp with the goal of improving my knowledge of web development.
-              </p>
-            </div>
-
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
     <div class="card w-75">
       <div class="card-body">
         <h5 class="card-title">About Me</h5>
         <div class="container">
           <div class="row">
-            <div class="col-4">
+            <div class="col-lg-4 sm-12"> -->
               <style>
                 img {
                   max-width: 100%;
@@ -140,7 +112,7 @@
                   text-align: left;
                 }
               </style>
-              <img src="./Images/profile.jpg" alt="profile-pic" class="img-thumbnail">
+              <img src="./Images/profile.jpg" alt="profile-pic" class="img-fluid">
             </div>
 
             <div class="col-8">
@@ -163,7 +135,6 @@
       </div>
     </div>
 
-  </section>
 
   </section>
 

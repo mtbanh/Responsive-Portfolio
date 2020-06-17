@@ -14,186 +14,155 @@
 <body>
 
   <header>
-    <style>
-      * {
-        font-family: sans-serif;
-      }
-
-      h4 {
-        font-size: 25px;
-        width: 136px;
-        height: 74px;
-        text-align: center;
-        justify-content: center;
-        padding-top: 15px;
-        padding-bottom: 0px;
-        margin: auto;
-        color: white;
-        background-color: teal;
-        display: block;
-        float: left;
-      }
-
-      .container {
-        margin-left: 15px;
-        text-align: center;
-      }
-
-      ul {
-        display: inline-block;
-        margin-top: 15px;
-      }
-
-
-      nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-      }
-
-      footer {
-        text-align: center;
-      }
-
-      section {
-        background-color: grey;
-        margin-top: 0px;
-        padding: 2rem;
-      }
-
-
-
-      .btn-primary {
-        background-color: teal;
-        border-color: teal;
-      }
-
-      @media screen and (max-width: 768px) {}
-
-      @media screen and (max-width: 640px) {}
-    </style>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-6">
-          <h4>Mai Banh</h4>
-        </div>
-
-        <div class="col-6">
-          <ul class="nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link active" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-          </nav>
-        </div>
+    <header>
+      <style>
+        * {
+          font-family: sans-serif;
+        }
+        h4 {
+          font-size: 25px;
+          width: 136px;
+          height: 74px;
+          text-align: center;
+          justify-content: center;
+          padding-top: 15px;
+          padding-bottom: 0px;
+          margin: auto;
+          color: white;
+          background-color: teal;
+          display: block;
+          float: left;
+        }
+  
+        .container {
+          margin-left: 15px;
+          text-align: center;
+        }
+  
+        ul {
+          display: inline-block;
+          margin-top: 15px;
+        }
+  
+  
+        nav {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+  
+        footer {
+          text-align: center;
+        }
+  
+        section {
+          background-color: grey;
+          margin-top: 0px;
+          padding: 2rem;
+        }
+  
+  
+  
+        .btn-primary {
+          background-color: teal;
+          border-color: teal;
+        }
+  
+  
+  
+      </style>
+  
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4" >
+        <h4>Mai Banh</h4>
+      </div>
+  
+      <div class="col md-8">
+        <nav class="navbar navbar-light bg-light">
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        </nav>
+      </div>
   </header>
 
   <section>
     <style>
-      img {
-        width: 282px;
-        height: 180px;
-        padding: 10px;
+      .card-title {
+        z-index: 1;
+        text-align: center;
+
       }
     </style>
     <div class="card w-75">
       <div class="card-header"> My portfolio </div>
-      <div class="card-body">
-        <div class="container">
-          <div class="row">
-            <div class="col-6">
-              <img src="./Images/word-guess.jpg" class="image-fluid" alt="word-guess" />
-            </div>
-            <div class="col-6">
-              <img src="./Images/RPG.jpg" class="image-fluid" alt="RPG" />
+      <div class="row row-cols-1 row-cols-md-2">
+        <div class="col mb-4">
+          <div class="card">
+            <img src="./Images/word-guess.jpg" class="card-img-top" alt="word-guess">
+            <div class="card-body">
+              <h5 class="card-title">Word Guess</h5>
+
             </div>
           </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="./Images/rpg.jpg" class="card-img-top" alt="rpg">
+            <div class="card-body">
+              <h5 class="card-title">RPG Games</h5>
 
-          <div class="row">
-            <div class="col-6">
-              <img src="./Images/Trivia game.jpg" class="image-fluid" alt="trivia" />
-            </div>
-            <div class="col-6">
-              <img src="./Images/info-widget.jpg" class="image-fluid" alt="info-widget" />
             </div>
           </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="./Images/trivia.jpg" class="card-img-top" alt="trivia">
+            <div class="card-body">
+              <h5 class="card-title">Trivia</h5>
 
-          <div class="row">
-            <div class="col-6">
-              <img src="./Images/Rock-Paper-Scissors.jpg" class="image-fluid" alt="rock-paper-scissors" />
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="./Images/info-widget.jpg" class="card-img-top" alt="info">
+            <div class="card-body">
+              <h5 class="card-title">Info Widget</h5>
+
+            </div>
+          </div>
+        </div>
+        <div class="col mb-4">
+          <div class="card">
+            <img src="./Images/rock-paper-sicssors.jpg" class="card-img-top" alt="rock-paper-sicssors">
+            <div class="card-body">
+              <h5 class="card-title">Rock Paper Scissor</h5>
+
             </div>
           </div>
         </div>
       </div>
-
-      <!-- <div class="row row-cols-1 row-cols-md-2">
-        <div class="col mb-4">
-          <div class="card h-100">
-            <div class="container"> -->
-      <!-- <img src="./Images/word-guess.jpg" class="card-img-top" alt="..."> --> -->
-      <!-- <div class="text-block">
-                <h5>Word Guess</h5>
-                <style>
-                  .container {
-                    position: relative;
-                    width: auto;
-                  }
-
-                  .text-block {
-                    position: absolute;
-                    bottom: 8px;
-                    right: 16px;
-                    background-color: teal;
-                    color: white;
-                    width: 265px;
-                    z-index: 1;
-                  }
-                </style> -->
-      <!-- </div>
-            </div>
-          </div>
-        </div>
-        <div class="col mb-4">
-          <div class="card h-100">
-            <img src="./Images/RPG.jpg" class="card-img-top" alt="RPG"> -->
-      <!-- <div class="text-block">
-              <h5>RPG Games</h5> -->
-
-      <!-- </div>
-          </div>
-        </div>
-        <div class="col mb-4">
-          <div class="card">
-            <img src="./Images/Rock-Paper-Scissors.jpg" class="card-img-top" alt="..."> -->
-      <!-- <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                content.</p> -->
-      <!-- </div>
-          </div>
-        </div>
-        <div class="col mb-4">
-          <div class="card">
-            <img src="./Images/Trivia game.jpg" class="card-img-top" alt="..."> -->
-      <!-- <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.</p> -->
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
   </section>
 
-
+  <!-- .text-block {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  background-color: teal;
+  color: white;
+  width: 265px;
+  z-index: 1;
+  } -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
