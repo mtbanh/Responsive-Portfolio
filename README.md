@@ -16,9 +16,9 @@ Below are the prerequisite understanding and programs that were utilized :
 ---
 
 ## Built with
-[HTML] (https://www.w3schools.com/TAGS/default.ASP)
-[CSS] (https://www.w3schools.com/css/css_howto.asp)
-[Bootstrap] (https://getbootstrap.com/docs/4.5/content/reboot/)
+* [HTML] (https://www.w3schools.com/TAGS/default.ASP)
+* [CSS] (https://www.w3schools.com/css/css_howto.asp)
+* [Bootstrap] (https://getbootstrap.com/docs/4.5/content/reboot/)
 
 ---
 
